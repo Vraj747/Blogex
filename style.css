@@ -1,0 +1,254 @@
+body{
+	margin:0;
+	padding:0;
+}
+.navigationBar{
+	height:90px;
+	overflow:hidden;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.menu{
+	display:flex;
+	margin-right:162px;
+}
+.menu > * {
+	padding : 10px;
+	font-family: K2D-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 31px;
+
+color: #6C7BFF;
+
+}
+
+.Logo{
+  margin-top: 20px;
+margin-left:65px;
+}
+.latestBlogImage{
+	width:100%;
+}
+.LatestBlogTitle{
+font-family: K2D-ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 52px;
+
+
+
+color: #3A3838;
+}
+.LatestBlog{
+text-align:center;
+position:relative;
+}
+.LatestBlogDescription{
+font-family: K2D-Regular;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+
+color: #3A3838;
+}
+.LatestBlogInfo{
+position: absolute;
+bottom:102px;
+right:93px;
+text-align:left;
+}
+.ReadArticle{
+position:absolute;
+font-family: K2D-SemiBold;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+height:75px;
+width:235px;
+background-color:#858585;
+border-radius:11px;
+display: flex;
+align-items: center;
+justify-content:center;
+padding:auto;
+color: #FFFFFF;
+bottom:27px;
+right:93px;
+}
+@keyframes ttExample {
+	0% {background-color: white;color:black;}
+	44% {background-color: white;color:black;}
+	50% {background-color: black;color:white;}
+	94% {background-color:black;color:white;}
+	100% {background-color: white;color:black;}
+}
+.tt{
+	background-color:white;
+	border-radius: 6px;
+	width:91.2px;
+	height: 38px;
+	left:19px;
+	top:33px;
+	position:absolute;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	animation-name: ttExample;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #333333;
+}
+.blogs{
+	margin:73px;
+	display: flex;
+}
+.blog{
+	width:421px;
+	margin-right: 36px;
+}
+.ProSales{
+font-family: K2D-Medium;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+color: #3A3838;
+}
+.SubDescription{
+letter-spacing: 1px;
+font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+width: 372px;
+color: #7B7B7B;
+}
+.UVClight{
+font-family: Montserrat-SemiBold;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #3A3838;
+}
+.SideTopics{
+font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #7B7B7B;
+}
+.BlogLink{
+font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+width: fit-content;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+height: 15px;
+
+color: #645AE0;
+}
+.AdditionBlogLink{
+	height: 25px;
+	margin-top:10px;
+}
+.QA>*{
+padding-top:10px;
+padding-bottom:10px;
+}
+.readArticle2{
+border-style: solid;
+border-width: 1px;
+height: 70.81px;
+display:flex;
+align-items:center;
+justify-content:center;
+width:214px;
+border-radius:15px;
+margin-top:26px;
+}
+.readArticle3{
+border-style: solid;
+border-width: 1px;
+height: 70.81px;
+display:flex;
+align-items:center;
+justify-content:center;
+width:214px;
+border-radius:15px;
+}
+.hot{
+display: flex;
+margin-left: 83px;
+}
+.hotChild{
+width:306px;
+height:230px;
+margin-right:31px;
+}
+.HotTopics{
+font-family: Montserrat-Bold;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #3A3838;
+}
+.HotDescription{
+font-family: Montserrat-Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+width: 270px;
+
+color: #7B7B7B;
+
+}
+.TopTopics{
+font-family: K2D-Bold;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+margin-left:73px;
+
+
+color: #3A3838;
+
+}
+.parent2{
+justify-content:space-between;
+display:flex;
+align-items:center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
